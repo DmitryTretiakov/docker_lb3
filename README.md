@@ -9,11 +9,11 @@ git clone https://github.com/DmitryTretiakov/docker_lb3.git
 ```
 Запустить сборку контейнеров
 Откройте терминал в корневой директории вашего приложения и выполните следующую команду:
-docker-compose up -d
+docker-compose build
 ```
 ```
 Запустить приложение
-
+docker-compose up -d
 ```
 Перейти по ссылке
 ```
